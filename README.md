@@ -1,21 +1,16 @@
-# Codify
-Empresa para ajudar programadores iniciantes que não sabem por onde começar e os expêrientes caso queiram se aperfeissuar. <br>
+# 🌐 CODSPACE
 
-<br> Público Alvo: Júnior - Sênior <br>
+Nossa empresa é dedicada a capacitar indivíduos no universo da programação, oferecendo uma plataforma completa para iniciantes e profissionais em busca de aprimoramento. Com cursos que incluem vídeo aulas gravadas, apostilas e exercícios práticos, garantimos uma aprendizagem sólida e acessível. Além disso, disponibilizamos mentorias ao vivo para interação com especialistas e e-books que enriquecem ainda mais o conhecimento. Nosso objetivo é criar uma comunidade vibrante, onde todos possam evoluir e se desenvolver na carreira de tecnologia.
 
-<br>Método: Atravéz de cursos para mostrar um caminho as pessoas que estão iniciando, Mentorias ao vivo para tirar dúvidas, aprender linguaguens de programação e desenvolver projetos em grupo independente de sua expêriencia.<br>
+## 🛠️ Ferramentas
 
-<br>Comunidade: Temos uma comunidade para que os Devs se juntem para debater sobre programação e absorver mais, tendo uma conversa com pessoas com mais experiência também dando e recebendo feedback de outros programadores.<br>
+* [Javascript]() - Interação do site com o usuário
+* [SQL]() - Armazenar Informações usando Banco de Dados
 
-<br>E-book: Temos e-books para cada linguagem de programação que mostra o básico das linguagens e que o avançado se adiquiri ao pagar as mentorias.<br>
+## ✒️ Autores
 
-<br>Oportunidades: Temos contratadores em nossa comunidade, que podem te chamar para entrevistas fazendo com que você possa arranjar trabalho na area de programação de seu interesse.<br>
+* **Lucas Prates** - CEO - [lucasprates](https://github.com/prateslr)
 
-<br>Areas da Programação: <br>
-Front-End <br>
-Back-End <br>
-Fullstack <br>
+## 🫂 Agradecimento
 
-# Paleta de Cores
-#80CAB6 <br>
-#fff <br>
+* Obrigado a todos os colabores e envolvidos no projeto *CodSpace* pela colaboração, esforço e esperança no projeto;
