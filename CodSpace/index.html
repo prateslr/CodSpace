@@ -4,6 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://icons8.com.br/icon/V5cGWnc9R4xj/google">
+
   <link rel="stylesheet" href="src/css/main.css">
   <title>CodSpace</title>
 </head>
@@ -11,13 +17,81 @@
 
   <header class="header" id="header">
     <nav class="navBar">
-      
+      <div class="logo">
+        <img src="src/img/CodSpaceLogo.png" alt="">
+      </div>
+
+      <ul class="navList">
+        <li class="navItem">
+          <a href="#about" class="navLink">About</a>
+        </li>
+        <li class="navItem">
+          <a href="#" class="navLink">Mentoring</a>
+        </li>
+        <li class="navItem">
+          <a href="#" class="navLink">Curses</a>
+        </li>
+        <li class="navItem">
+          <a href="#" class="navLink">Projects</a>
+        </li>
+      </ul>
+
+      <div class="login-register">
+        <button class="login">Sign in</button>
+        <button class="register">Sign up</button>
+      </div>
     </nav>
-  </header>
+  </header><!-- header -->
+
+  <button id="scrollToTop" style="display: none;">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button><!-- top button -->
   
   <section class="hero" id="hero">
+    <img src="src/img/hero-img.svg" alt="">
+  </section><!-- hero -->
 
-  </section>
+  <section class="about" id="about">
+    <div class="why-text">
+      <h2>Por que?</h2>
+      <p>
+        Acreditamos que o aprendizado contínuo e o compartilhamento de conhecimento podem transformar 
+        carreiras e impulsionar o mercado de tecnologia. Nosso propósito é capacitar programadores de 
+        todos os níveis, ajudando-os a alcançar seus objetivos enquanto conectamos talentos a oportunidades 
+        reais no mercado.
+      </p>
+    </div>
 
+    <div class="how-text">
+      <h2>Como?</h2>
+      <p>
+        O CodSpace atua oferecendo uma experiência completa para programadores, unindo aprendizado, prática e 
+        oportunidades reais. Por meio de cursos interativos, e-books e quizzes, a plataforma facilita o 
+        aprendizado de programação de forma prática e acessível. Além disso, disponibilizamos materiais de 
+        alta qualidade e ferramentas essenciais para que os usuários avancem em seus conhecimentos técnicos 
+        com segurança.
+
+        Mas o CodSpace vai além do aprendizado teórico: criamos um espaço onde programadores podem armazenar e 
+        exibir seus projetos em um portfólio online, aumentando sua visibilidade para recrutadores e empresas 
+        interessadas em talento e inovação. Tudo isso é sustentado por uma comunidade colaborativa, onde 
+        aprendizado contínuo, troca de experiências e networking acontecem de maneira natural e enriquecedora.
+      </p>
+    </div>
+
+    <div class="what-text">
+      <h2>O que é?</h2>
+      <p>
+        A CodSpace é uma plataforma inovadora criada para ser o ponto de encontro ideal para programadores, 
+        desde os que estão iniciando sua jornada na programação até os mais experientes que desejam aprimorar 
+        suas habilidades. Nossa missão é proporcionar um ambiente rico em aprendizado e networking, tornando 
+        o desenvolvimento de software mais acessível e colaborativo.
+      </p>
+    </div>
+  </section><!-- about -->
+
+  <section class="about" id="about">
+  </section><!-- about -->
+
+  <script src="src/javascript/main.js"></script>
 </body>
 </html>

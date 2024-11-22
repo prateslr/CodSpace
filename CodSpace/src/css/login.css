@@ -176,17 +176,48 @@ form.sign-up-form {
   width: 150px;
   height: 50px;
   border: none;
-  border-radius: 50px;
+  text-transform: uppercase;
+  margin: 30px 0;
+  font-weight: 400;
   background: #700899;
   color: #fff;
-  font-weight: 600;
-  margin: 10px 0;
-  text-transform: uppercase;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  border-radius: 23px;
   cursor: pointer;
+
+  display: grid;
+  place-items: center;
 }
 
-.btn:hover {
-  background: rgb(107, 8, 107);
+.transition {
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  transition-duration: 500ms;
+  background-color: rgb(107, 8, 107);
+  border-radius: 9999px;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn:hover .transition {
+  width: 14em;
+  height: 14em;
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+.label {
+  position: relative;
+  top: -1px;
+  text-align: center;
+  margin: -17px 0 0 0;
 }
 
 .social-text {

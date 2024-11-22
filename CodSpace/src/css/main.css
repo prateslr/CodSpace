@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900');
+
+/* Geral */
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +8,196 @@
   font-family: 'Poppins', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #444;
+  height: 90000px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Top Button*/
+#scrollToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  width: 40px;
+  height: 40px;
+  z-index: 100;
+  background: #700899;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+
+  display: grid;
+  place-items: center;
+}
+
+#scrollToTop:hover {
+  background-color: #700899;
+}
+
+#scrollToTop i {
+  font-size: 22px;
+  color: #fff;
+}
+
+/* Header*/
+.navBar {
+  background: #700899d5;
+  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  height: 80px;
+  padding: 40px;
+  
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo {
+  width: 200px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.navList {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navItem {
+  display: inline-block;
+}
+
+.navLink {
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.navLink:hover {
+  color: #ececec;
+}
+
+.navLink.active {
+  color: #941394;
+}
+
+.navItem:not(:last-child) {
+  margin-right: 40px;
+}
+
+.login {
+  border: none;
+  width: 130px;
+  height: 40px;
+  font-weight: 400;
+  background: #941394;
+  color: #fff;
+  border-radius: 23px;
+  cursor: pointer;
+  font-family: 'poppins';
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  border-radius: 23px;
+  margin-right: 10px;
+}
+
+.register {
+  border: none;
+  width: 130px;
+  height: 40px;
+  font-weight: 400;
+  background: #941394;
+  color: #fff;
+  border-radius: 23px;
+  cursor: pointer;
+  font-family: 'poppins';
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  border-radius: 23px;
+}
+
+.login:hover, .register:hover {
+  background: rgb(122, 10, 122);
+}
+
+/* Hero */
+#hero {
+  background: #700899;
+  width: 100%;
+  height: 90vh;
+  border-radius: 0 0 120px 120px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero img {
+  width: 600px;
+}
+
+/* About */
+#about {
+  width: 100%;
+
+  display: grid;
+  gap: 40px;
+}
+
+.why-text {
+  width: 100%;
+  text-align: left;
+  padding: 20px;
+}
+
+.why-text h2 {
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.why-text p {
+  font-size: 16px;
+  color: #000;
+}
+
+.how-text {
+  background: #700899;
+  width: 100%;
+  padding: 20px;
+
+  text-align: left;
+}
+
+.how-text h2 {
+  margin-bottom: 16px;
+  font-size: 32px;
+  color: #fff;
+}
+
+.how-text p {
+  color: #000;
+  font-size: 16px;
 }
